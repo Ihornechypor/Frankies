@@ -83,6 +83,7 @@
  	font-family: "OpenSansRegular";
  	text-align: center;
  	font-size: 14px;
+ 	line-height: 19px;
  }
  .after-heading {
  	color: #999999;
@@ -212,13 +213,17 @@
  		color: #ffffff;
  		
  	}
- 	p {
+ 	.gallery-look {
+ 		font-family: "OpenSansRegular";
  		font-size: 16px;
+ 		text-align: center;
+ 		line-height: 21px;
  		color: #ffffff;
 
  	}
- 	p:last-child{
+ 	.make-order{
  		margin-top: 106px;
+ 		text-align: center;
  	}
  	.order-btn {
  		padding-top: 10px;
@@ -558,8 +563,8 @@
  		text-align: center;
  		width: 780px;
  	}
- 	.after-heading {
- 		margin-bottom: 50px;
+ 	.carousel.slide{
+ 		margin-top: 50px;
  	}
  	img{
  		display: inline-block;
@@ -596,7 +601,8 @@
  		color: #ffffff;
  	}
  	.after-heading {
- 		margin-bottom: 50px;
+ 		margin-top: 25px;
+ 		margin-bottom: 25px;
  	}
  	label {
  		margin-bottom: 5px;
@@ -738,7 +744,7 @@
  }
  @media (max-width: 1366px) {
  	.navbar-brand{
- 		padding: 0 2px;
+ 		padding: 0 20px;
  	}
  	.navbar-default{
  		padding: 13px 5px 9px 5px;

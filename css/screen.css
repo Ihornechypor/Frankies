@@ -141,6 +141,7 @@ p {
   font-family: "OpenSansRegular";
   text-align: center;
   font-size: 14px;
+  line-height: 19px;
 }
 
 .after-heading {
@@ -261,12 +262,16 @@ a:hover {
   margin-bottom: 17px;
   color: #ffffff;
 }
-.main-content p {
+.main-content .gallery-look {
+  font-family: "OpenSansRegular";
   font-size: 16px;
+  text-align: center;
+  line-height: 21px;
   color: #ffffff;
 }
-.main-content p:last-child {
+.main-content .make-order {
   margin-top: 106px;
+  text-align: center;
 }
 .main-content .order-btn {
   padding-top: 10px;
@@ -581,8 +586,8 @@ a:hover {
   text-align: center;
   width: 780px;
 }
-.review_container .after-heading {
-  margin-bottom: 50px;
+.review_container .carousel.slide {
+  margin-top: 50px;
 }
 .review_container img {
   display: inline-block;
@@ -618,7 +623,8 @@ a:hover {
   color: #ffffff;
 }
 .contact_us .after-heading {
-  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .contact_us label {
   margin-bottom: 5px;
@@ -723,7 +729,7 @@ footer .social li i:hover {
 }
 @media (max-width: 1366px) {
   .navbar-brand {
-    padding: 0 2px;
+    padding: 0 20px;
   }
 
   .navbar-default {
