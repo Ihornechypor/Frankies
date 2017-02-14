@@ -185,7 +185,7 @@ a:hover {
   top: 0;
   width: 100%;
   border-radius: 0px;
-  padding: 13px 15px 9px 15px;
+  padding: 13px 207px 9px 205px;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -711,9 +711,14 @@ footer .social li i:hover {
 
 /*    footer end   */
 /*     responsive start       */
-@media (max-width: 1534px) {
+@media (max-width: 1720px) {
   .container .nav.navbar-nav:first-child {
-    width: 77%;
+    width: 75%;
+  }
+}
+@media (max-width: 1515px) {
+  .container .nav.navbar-nav:first-child {
+    width: 69%;
   }
 }
 @media (max-width: 1366px) {
@@ -881,7 +886,7 @@ footer .social li i:hover {
   }
 
   .nav.navbar-nav:first-child {
-    width: 82%;
+    width: 79%;
     text-align: center;
   }
   .nav.navbar-nav:first-child li {
