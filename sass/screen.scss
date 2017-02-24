@@ -463,6 +463,9 @@
  	.chocolate-cookies {
  		display: none;
  	}
+ 	.product-description {
+ 		//display: none;
+ 	}
  }
 
  /*product-gallery end*/
@@ -531,27 +534,16 @@
  		color: #999999;
  		text-align: center;
  	}
- 	.news-details {
- 		margin-top: 41px;
- 		position: absolute;
- 		bottom: 0;
- 		width: 100%;
- 	}
-
  	span{
  		display: inline-block;
  		a {
  			text-decoration: underline;
+ 			font-size: 14px;
  			color:  #333333;
 
  		}
  	}
- 	.date {
- 		font-family: "OpenSansRegular";
- 		color: #999999;
- 		margin-right: 25px; 
 
- 	}
  	.after-heading {
  		margin-bottom: 45px;
  	}
@@ -560,6 +552,28 @@
  		height: 320px;
  		display: inline-block;
  	}
+ }
+ .news-details {
+ 	margin-top: 41px;
+ 	position: absolute;
+ 	bottom: 0;
+ 	width: 100%;
+ 	.date {
+ 		font-family: "OpenSansRegular";
+ 		font-size: 14px;
+ 		color: #999999;
+ 		margin-right: 25px; 
+
+ 	}
+ }
+
+ .news-text {
+ 	font-family: OpenSansRegular;
+ 	font-size: 14px;
+ 	color:  #333333;
+ 	text-align: justify;
+
+
  }
  /*our_news end*/
  /*review_container start*/
@@ -798,15 +812,28 @@
  		color:  #999999;
  	}
  }
-
-
-
-
-
-
-
-
-
+ .frankies-news {
+ 	.modal-content {
+ 		padding-bottom: 38px;
+ 	}
+ 	.modal-title {
+ 		font-size: 18px;
+ 		text-transform: none;
+ 	}
+ 	.modal-body>img{
+ 		margin-bottom: 23px;
+ 	}
+ 	.news-details {
+ 		position: static;
+ 	}
+ 	.social_in_news {
+ 		a {
+ 			&:first-child{
+ 				margin-right: 21px;
+ 			}
+ 		}
+ 	}
+ }
  .form-control.error{
  	color: red;
  	border-color: red;

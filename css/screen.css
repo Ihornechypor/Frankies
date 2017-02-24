@@ -552,23 +552,13 @@ a:hover {
   color: #999999;
   text-align: center;
 }
-.our_news .news-details {
-  margin-top: 41px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
 .our_news span {
   display: inline-block;
 }
 .our_news span a {
   text-decoration: underline;
+  font-size: 14px;
   color: #333333;
-}
-.our_news .date {
-  font-family: "OpenSansRegular";
-  color: #999999;
-  margin-right: 25px;
 }
 .our_news .after-heading {
   margin-bottom: 45px;
@@ -577,6 +567,26 @@ a:hover {
   width: 300px;
   height: 320px;
   display: inline-block;
+}
+
+.news-details {
+  margin-top: 41px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.news-details .date {
+  font-family: "OpenSansRegular";
+  font-size: 14px;
+  color: #999999;
+  margin-right: 25px;
+}
+
+.news-text {
+  font-family: OpenSansRegular;
+  font-size: 14px;
+  color: #333333;
+  text-align: justify;
 }
 
 /*our_news end*/
@@ -795,6 +805,23 @@ footer .social li i:hover {
   font-family: RobotoSlabRegular;
   font-size: 14px;
   color: #999999;
+}
+
+.frankies-news .modal-content {
+  padding-bottom: 38px;
+}
+.frankies-news .modal-title {
+  font-size: 18px;
+  text-transform: none;
+}
+.frankies-news .modal-body > img {
+  margin-bottom: 23px;
+}
+.frankies-news .news-details {
+  position: static;
+}
+.frankies-news .social_in_news a:first-child {
+  margin-right: 21px;
 }
 
 .form-control.error {
