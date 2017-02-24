@@ -9,6 +9,7 @@ $(function(){
 	$('.nav.navbar-nav li a').click(function(e) {
 		$('.nav.navbar-nav li').removeClass('active');
 		$(this).parent().addClass('active');
+		$('.navbar-right li').removeClass('active');
 	});
 	// gallery js
 	$('.gallery-menu li a').click(function(e) {
@@ -30,6 +31,27 @@ $(function(){
 		}
 		
 	});
-	
+	// validation js
+	$('#customer_order').validate({
+		rules: {
+			email: {
+				required: true,
+				email: true,
+			}
+
+		},
+		messages: {
+			email:{
+				required: "Это поле обязательно для заполнения",
+				email: "Пожалуйста введите корректный email"
+			},
+		}
+
+	});
+	//modal js
+
+
+
+
 
 });
