@@ -87,6 +87,7 @@ body {
 
 body {
   min-width: 320px;
+  padding-right: 0px !important;
 }
 
 /*   tipography start             */
@@ -281,6 +282,10 @@ a:hover {
   text-decoration: none;
   color: #cccccc;
   border-color: #cccccc;
+}
+.main-content .order-btn:focus, .main-content .order-btn:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /* main content start end*/
@@ -716,6 +721,93 @@ footer .social li i:hover {
 }
 
 /*    footer end   */
+/* modals start */
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-dialog .modal-content,
+.modal-dialog textarea,
+.modal-dialog input {
+  border-radius: 0px;
+}
+.modal-dialog .modal-title {
+  font-family: RobotoSlabBold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #333333;
+  text-align: center;
+}
+.modal-dialog textarea,
+.modal-dialog input {
+  border: 1px solid #aaaaaa;
+  text-align: left;
+}
+.modal-dialog label,
+.modal-dialog .btn-default {
+  font-family: RobotoSlabRegular;
+}
+.modal-dialog label,
+.modal-dialog input {
+  font-size: 14px;
+}
+.modal-dialog label {
+  margin-bottom: 10px;
+  color: #333333;
+}
+.modal-dialog input,
+.modal-dialog textarea {
+  font-family: OpenSansRegular;
+}
+.modal-dialog .btn-default {
+  display: block;
+  width: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 0px;
+  background: #6cca79;
+}
+.modal-dialog textarea {
+  resize: none;
+  height: 150px;
+  color: #cccccc;
+}
+
+.order_success .modal-header,
+.email_success .modal-header {
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+.order_success .modal-title,
+.email_success .modal-title {
+  text-transform: none;
+  margin: 15px 0;
+}
+.order_success img,
+.email_success img {
+  display: inline-block;
+}
+.order_success .success_text,
+.email_success .success_text {
+  margin-bottom: 15px;
+  font-family: RobotoSlabRegular;
+  font-size: 14px;
+  color: #999999;
+}
+
+.form-control.error {
+  color: red;
+  border-color: red;
+}
+
+.error {
+  margin-top: 4px;
+  color: red;
+}
+
+/* modals end*/
 /*     responsive start       */
 @media (max-width: 1720px) {
   .container .nav.navbar-nav:first-child {
@@ -899,6 +991,11 @@ footer .social li i:hover {
     display: inline-block;
     float: none;
     text-align: left;
+  }
+}
+@media (min-width: 768px) {
+  .modal-dialog.frankies-news {
+    width: 39%;
   }
 }
 /*     responsive end        */
